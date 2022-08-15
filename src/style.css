@@ -1,14 +1,13 @@
 /* styles go here */
 .form__field {
   padding-bottom: 10px;
-  vertical-align: middle;
 }
 
 .info__block {
   margin-bottom: 20px;
 }
 
-.info__block > .form__field:last-child {
+.form__field:last-child {
   padding-bottom: 0;
 }
 
