@@ -18,12 +18,12 @@
       method="post"
     >
       <fieldset class="info__block">
-
         <legend>Personal information</legend>
 
         <div class="form__field">
           <label for="surname">Surname:</label>
-          <input type="text"
+          <input
+            type="text"
             id="surname"
             name="surname"
             autocomplete="off"
@@ -34,7 +34,8 @@
 
         <div class="form__field">
           <label for="name">Name:</label>
-          <input type="text"
+          <input
+            type="text"
             id="name"
             name="name"
             autocomplete="off"
@@ -65,7 +66,8 @@
 
         <div class="form__field">
           <label for="acceptTerms">I accept the term of the agreement</label>
-          <input type="checkbox"
+          <input
+            type="checkbox"
             id="acceptTerms"
             name="acceptTerms"
           >
@@ -74,12 +76,12 @@
       </fieldset>
 
       <fieldset class="info__block">
-
         <legend>Registration</legend>
 
         <div class="form__field">
           <label for="email">E-mail:</label>
-          <input type="email"
+          <input
+            type="email"
             id="email"
             name="email"
             placeholder="email@example.com"
@@ -89,59 +91,61 @@
 
         <div class="form__field">
           <label for="password">Password:</label>
-          <input type="password"
+          <input
+            type="password"
             id="password"
             name="password"
             required
           >
         </div>
 
-
       </fieldset>
 
       <fieldset class="info__block">
-
         <legend>An interesting fact about you!</legend>
 
         <div class="form__field">
           <span>Do you love cats?</span>
-
-          <input type="radio"
+          <input
+            type="radio"
             id="yes"
             name="loveCats"
             value="Yes"
           >
           <label for="yes"></label>
-
-          <input type="radio"
+          <input
+            type="radio"
             id="no"
             name="loveCats"
             value="No"
           >
           <label for="no"></label>
-
         </div>
 
         <div class="form__field">
           <label for="loveColor">What is your favorite color?</label>
-          <input type="color"
-                 id="loveColor"
-                 name="loveColor">
+          <input
+            type="color"
+            id="loveColor"
+            name="loveColor">
         </div>
 
         <div class="form__field">
           <label for="timeToBed">What time do you go to bed?</label>
-          <input type="time"
+          <input
+            type="time"
             id="timeToBed"
             name="timeToBed"
             step="2"
-            placeholder="--:--:-- --"
           >
         </div>
 
         <div class="form__field">
-          <label for="brandCar">What are your favorite brand of cars?</label>
-          <select name="brandCar"
+          <label for="brandCar">
+            What are your favorite brand of cars?
+          </label>
+          <select
+            name="brandCar"
             id="brandCar"
             multiple
           >
@@ -153,7 +157,8 @@
 
         <div class="form__field">
           <label for="rateOurWork">How do you rate our work?</label>
-          <input type="range"
+          <input
+            type="range"
             id="rateOurWork"
             name="rateOurWork"
             value="0"
@@ -162,19 +167,21 @@
       </fieldset>
 
       <fieldset class="info__block">
-
         <legend>Additional info:</legend>
 
         <div class="form__field">
           <label for="comments">Comments:</label>
-          <textarea id="comments"
-                    name="comments">
+          <textarea
+            id="comments"
+            name="comments"
+          >
           </textarea>
         </div>
 
         <div class="form__field">
           <label for="recommend">Would you recommend us?</label>
-          <select name="recommend"
+          <select
+            name="recommend"
             id="recommend"
           >
             <option value="yes" selected>yes</option>
@@ -183,9 +190,7 @@
         </div>
       </fieldset>
 
-      <div class="submit">
-        <input type="submit" value="Submit">
-      </div>
+      <button type="submit">Submit</button>
 
     </form>
   </body>
